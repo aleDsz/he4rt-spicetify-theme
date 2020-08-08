@@ -1,4 +1,4 @@
-# He4rt (Based on [he4rt](https://github.com/morpheusthewhite/spicetify-themes/tree/master/he4rt))
+# He4rt (Based on [Dribbblish](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Dribbblish))
 
 ## Screenshots
 #### Base
