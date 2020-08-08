@@ -9,9 +9,8 @@
   --main-gap-side: 10px;
   --main-gap: 40px;
   --glue-font-weight-normal: bold !important;
-  /* --app-background: #8675a9; */
   --app-filter: blur(10)px;
-  --app-background: url("https://media.discordapp.net/attachments/726608177889804358/732405434304036985/W2.png");
+  --app-background: url("https://local_resource_host/images/wallpaper.png");
   /* If you are using SpotifyNoControl.exe, set this variable to 0 */
   --os-windows-icon-dodge: 1;
 }
