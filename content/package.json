@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "icon-font-generator src/*.svg -o dist"
+  },
+  "dependencies": {
+    "icon-font-generator": ">= 0.0.0"
+  }
+}
