@@ -120,11 +120,10 @@ waitForElement(["#main-container"], (queries) => {
 });
 
 waitForElement(["#view-buddy-list"], (queries) => {
-    const he4rt = document.createElement("div");
-    he4rt.id = "he4rt_logo";
-    queries[0].prepend(he4rt);
-
-    he4rt.load("https://local_resource_host/images/he4rt.svg");
+    const logo = document.createElement("i");
+    logo.id = "he4rt_logo";
+    logo.className = "icon-icon";
+    queries[0].prepend(logo);
 });
 
 waitForElement([".LeftSidebar"], (queries) => {
