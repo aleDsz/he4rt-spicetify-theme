@@ -1,35 +1,8 @@
-# Dribbblish
+# He4rt (Based on [he4rt](https://github.com/morpheusthewhite/spicetify-themes/tree/master/he4rt))
 
 ## Screenshots
 #### Base
 ![demo1](./base.png)
-
-#### White
-![demo2](./white.png)
-
-#### Dark
-![demo3](./dark.png)
-
-#### Dracula
-![demo4](./dracula.png)
-
-#### Gruvbox
-![demoGruvbox](./gruvbox.png)
-
-#### Nord-Dark
-![demo5](./nord-dark.png)
-
-#### Nord-Light
-![demo6](./nord-light.png)
-
-#### Horizon
-![demoHorizon](./horizon.png)
-
-#### Samouraï
-![demoSamourai](./samourai.png)
-
-#### Purple
-![demo8](./purple.png)
 
 ## More
 Requires spicetify-cli **v0.9.9 or newer**.
@@ -41,10 +14,12 @@ Run these command:
 #### Linux and MacOS:
 In **Bash**:
 ```bash
-cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
-cp dribbblish.js ../../Extensions
-spicetify config extensions dribbblish.js
-spicetify config current_theme Dribbblish color_scheme base
+cd "$(dirname "$(spicetify -c)")/Themes"
+git clone https://github.com/aleDsz/he4rt-spicetify-theme.git he4rt
+cd he4rt
+cp he4rt.js ../../Extensions
+spicetify config extensions he4rt.js
+spicetify config current_theme he4rt color_scheme base
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
 spicetify apply
 ```
@@ -52,10 +27,12 @@ spicetify apply
 #### Windows
 In **Powershell**:
 ```powershell
-cd "$(spicetify -c | Split-Path)\Themes\Dribbblish"
-Copy-Item dribbblish.js ..\..\Extensions
-spicetify config extensions dribbblish.js
-spicetify config current_theme Dribbblish color_scheme base
+cd "$(spicetify -c | Split-Path)\Themes"
+git clone https://github.com/aleDsz/he4rt-spicetify-theme.git he4rt
+cd he4rt
+Copy-Item he4rt.js ..\..\Extensions
+spicetify config extensions he4rt.js
+spicetify config current_theme he4rt color_scheme base
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
 spicetify apply
 ```
@@ -70,19 +47,12 @@ Moreover, by default, Spotify adjusted sidebar items and profile menu icon to st
 
 ![nocontrol](https://i.imgur.com/qdZyv1t.png)
 
-### Color Schemes
-There are 9 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `gruvbox`, `nord-dark`, `nord-light`, `horizon`, `samourai`, `purple`. Change scheme with commands:
-```
-spicetify config color_scheme <scheme name>
-spicetify apply
-```
-
 # How to uninstall 
 
-Remove the dribbblish script with the following commands 
+Remove the he4rt script with the following commands 
 
 ```
-spicetify config extensions dribbblish.js-
+spicetify config extensions he4rt.js-
 spicetify apply
 ```
 
