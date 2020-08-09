@@ -63,11 +63,11 @@ These keys are used in the `colors.ini` file.
 | Key | Target |
 |-|-|
 |`main_fg`| The main Accent, used for sidebar and some interface elements|
-|`main_bg`| The real star of the show, the main Backgroud of app (on the right side)|
+|`main_bg`| The real star of the show, the main Background of app (on the right side)|
 |`secondary_fg`| Main text and some other small stuff|
 |`secondary_bg`| The background for the left side navbar|
-|`selected_button`| Button currenly being hovered|
-|`pressing_fg`| The color that momentarialy appears when you press anything|
+|`selected_button`| Button currently being hovered|
+|`pressing_fg`| The color that momentarily appears when you press anything|
 |`pressing_button_fg`| The textcolor for a pressed button|
 |`pressing_button_bg`| BG color for the pressed button|
 |`sidebar_and_player_bg`| Background for the player|
